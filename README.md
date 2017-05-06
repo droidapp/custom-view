@@ -8,5 +8,5 @@
 	}
   
   	dependencies {
-		compile 'com.github.User:Repo:Tag'
+		compile 'com.github.droidapp:custom-view:0.1.2'
 	}
