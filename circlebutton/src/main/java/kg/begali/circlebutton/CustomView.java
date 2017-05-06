@@ -30,7 +30,9 @@ public class CustomView extends View {
         TypedArray typedArray = context.getTheme().obtainStyledAttributes(attrs,R.styleable.CustomView, 0, 0);
 
         try {
-            circleText = typedArray.getString(R.styleable.CustomView_circleLabel);
+            String str  = typedArray.getString(R.styleable.CustomView_circleLabel);
+            if (str != null)
+                circleText = str;
             circleCol = typedArray.getInteger(R.styleable.CustomView_circleColor, Color.DKGRAY);
             labelCol = typedArray.getInteger(R.styleable.CustomView_labelColor, Color.WHITE);
             lableSize = typedArray.getDimensionPixelSize(R.styleable.CustomView_labelSize, 28);
