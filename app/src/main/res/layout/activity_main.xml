@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kg.begali.customviewapp.MainActivity">
+    <kg.begali.customviewapp.CustomView
+        android:layout_centerInParent="true"
+        android:id="@+id/customView"
+        app:circleColor="#ff0099"
+        app:circleLabel="Hello Begali"
+        app:labelSize="16sp"
+        android:background="@drawable/click"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+</RelativeLayout>
