@@ -16,7 +16,7 @@ import android.view.View;
 public class CustomView extends View {
 
     private int circleCol, labelCol;
-    private String circleText;
+    private String circleText = "Hello";
     private Paint circlePaint;
     private int lableSize;
     public CustomView(Context context) {
